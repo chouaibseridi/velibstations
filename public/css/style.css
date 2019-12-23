@@ -1,0 +1,136 @@
+body
+{
+  background-color: gray;
+  margin:0;
+  padding: 0;
+  height: 100%;
+}
+.body
+{
+  margin:auto;
+  width: 100%;
+}
+
+.l
+{
+font-weight: bold;
+}
+.miniature
+{
+  height: 100%;
+  width: 100%;
+}
+.miniature2
+{
+  height: 200px;
+  width: 200px;
+  border-radius: 10px 0 0 10px;
+
+}
+#li
+{
+  height: 202px;
+  padding: 0;
+  box-shadow: 0 0 2px silver;
+  border-radius: 10px 10px 10px 10px;
+  margin-bottom: 1%;
+}
+#li:hover
+{
+  box-shadow: 0 0 5px silver;
+
+}
+#id
+{
+  display: none;
+}
+.div0
+{
+  display: block;
+}
+.div1
+{
+  width: 200px;
+  height: 200px;
+}
+
+.div2
+{
+  padding-top: 40px;
+  width: 400px;
+  height: 200px;
+}
+.div2 p
+{
+  color:gray;
+  margin-left: 10%;
+  font-size: 20px;
+}
+.div2 h4
+{
+  color:blue;
+  margin-left: 10%;
+}
+.div1,.div2
+{
+  display: inline-block;
+  vertical-align:top;
+}
+footer
+{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+footer p
+{
+  color: gray;
+}
+.container1
+{
+  margin: auto;
+  margin-top: 200px;
+  background-color: white;
+  width: 25%;
+  box-shadow: 0 0 2px silver;
+  border-radius: 10px 10px 10px 10px;
+  padding: 40px;
+  padding-left: 80px;
+}
+.container2
+{
+  margin: auto;
+  margin-top: 40px;
+  background-color: white;
+  width: 50%;
+  box-shadow: 0 0 2px silver;
+  border-radius: 10px 10px 10px 10px;
+  padding: 40px;
+}
+.containerAnnonce
+{
+  margin: auto;
+  margin-top: 40px;
+  background-color: white;
+  width: 60%;
+  box-shadow: 0 0 2px silver;
+  border-radius: 10px 10px 10px 10px;
+  padding: 40px;
+}
+.buttons
+{
+text-align: center;
+margin-top: 30px;
+}
+
+.listannonce
+{
+  margin:auto;
+  width: 50%;
+}
+nav
+{
+  font-size: 22px;
+}
+

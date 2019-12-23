@@ -1,0 +1,45 @@
+extends layout
+
+block content
+
+    locationLon(type='hidden' name= location[0].lon)
+    locationLat(type='hidden' name= location[0].lat)
+    zoom(type='hidden' name= zoom)
+    input#myText(type='hidden', value=stations2)
+    
+    div.content      
+      if (zoom == 13)
+        div#map.map
+        div.sidebar
+          .limiter
+            .container-login100
+              .wrap-login100
+                  form.login100-form.validate-form(type="form", action="/bornes", method="post")
+                    span.login100-form-title.p-b-43
+                      | Trouver une station Velib 
+                    .wrap-input100.validate-input(data-validate='Adresse est obligatoire')
+                      input.input100(type='text', name='adresse')
+                      span.focus-input100
+                      span.label-input100 Adresse
+                    .container-login100-form-btn
+                      button#trouver.login100-form-btn
+                        | Trouver
+                    a#lien2.text-danger(href="/logout") Deconnexion
+                    
+                        
+      if (zoom == 17)
+        div#map.map
+        div.sidebar
+            h1#titre Liste des stations
+            div#stationsList
+              ul
+                each station, i in stations1
+                  li.list-group-item#stationItem
+                      h4 #{station.station}
+                      p #{station.latitude} 
+                      p #{station.longitude} 
+                      p.text-danger #{station.distance} m
+            a#lien(href="/bornes") Essayer une autre adresse
+            a#lien.text-danger(href="/logout") Deconnexion
+
+

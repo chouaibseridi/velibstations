@@ -1,0 +1,87 @@
+
+.map {
+    height: 806px;  
+    width: 70%;
+}
+
+.map2{
+    
+    height: 806px;  
+    width: 70%;
+    background-image: url('https://static.latribune.fr/1008599/velib.png');
+
+}
+
+.sidebar {
+     width: 30%;
+     float: right;
+     background-color: #F7F7F7     ;
+     border-radius: 0 10px 10px 0;
+     height: 806px;
+
+}
+.content
+{
+    height: 806px;
+
+
+    margin-top: 90px;
+}
+
+.map,.map2, .sidebar
+{
+    display: inline-block;
+}
+
+#stationsList
+{
+    margin: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 657px;
+    overflow: auto;
+    border-radius: 0 10px 10px 0;
+
+
+}
+
+#stationItem
+{
+    margin-bottom: 10px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #c0d0d5;
+    padding: 0px;
+    padding-left: 8px;
+    box-shadow: 1px 1px 2px #95a2a5;
+    height: 115;
+}
+
+#stationItem h4
+{
+   color: #404547;
+}
+
+#titre
+{   
+    margin: 10px;
+    margin-top:20px;
+    margin-left: 60px;
+    color: #404547;
+}
+
+#lien
+{
+    margin-left: 40px;
+    font-size: 16px;
+}
+#lien2
+{
+    margin-left: 120px;
+    font-size: 16px;
+}
+
+#trouver
+{
+    margin-bottom: 330px;
+}
+
